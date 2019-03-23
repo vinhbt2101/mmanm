@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor2" prefHeight="386.0" prefWidth="638.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication3.Tab2Controller">
+  <children>
+    <TextField fx:id="field1" layoutX="91.0" layoutY="37.0" prefWidth="403.0" />
+    <Label layoutX="28.0" layoutY="40.0" text="First File" />
+    <Button fx:id="btn_1" layoutX="511.0" layoutY="37.0" mnemonicParsing="false" onAction="#InputFileChooser1" text="Browse" />
+    <TextField fx:id="field2" layoutX="91.0" layoutY="200.0" prefWidth="403.0" />
+    <Button fx:id="btn_2" layoutX="511.0" layoutY="200.0" mnemonicParsing="false" onAction="#InputFileChooser2" text="Browse" />
+    <Label layoutX="11.0" layoutY="203.0" text="Second File" />
+    <TextArea layoutX="91.0" layoutY="74.0" prefHeight="108.0" prefWidth="403.0" wrapText="true" />
+    <TextArea layoutX="91.0" layoutY="241.0" prefHeight="108.0" prefWidth="403.0" wrapText="true" />
+  </children>
+</AnchorPane>
